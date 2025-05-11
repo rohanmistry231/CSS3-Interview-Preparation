@@ -1,0 +1,20 @@
+/* Main Learning Points: Opacity and Transparency */
+
+/* Opacity: Controls the transparency of the entire element (0 to 1) */
+.opacity-box {
+    background-color: purple;
+    opacity: 0.5; /* 50% transparent */
+    padding: 20px;
+    margin: 10px;
+    height: 100px;
+    color: white;
+}
+
+/* RGBA: Uses alpha channel for transparency in colors */
+.rgba-box {
+    background-color: rgba(255, 165, 0, 0.7); /* Orange with 70% opacity */
+    padding: 20px;
+    margin: 10px;
+    height: 100px;
+    color: white;
+}

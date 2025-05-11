@@ -1,0 +1,21 @@
+/* Main Learning Points: Background Properties (color, image, position, repeat) */
+
+/* Background Color: Sets a solid color for the background */
+.bg-color {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 10px;
+    height: 100px;
+}
+
+/* Background Image, Position, and Repeat */
+.bg-image {
+    background-image: url('https://via.placeholder.com/150');
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: cover; /* Ensures the image covers the div */
+    padding: 20px;
+    margin: 10px;
+    height: 200px;
+    color: white;
+}

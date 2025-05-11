@@ -1,0 +1,25 @@
+/* Main Learning Points: Color Values (hex, RGB, HSL) */
+
+/* Hex: Uses hexadecimal notation (e.g., #RRGGBB) */
+.hex {
+    background-color: #ff6347; /* Tomato color in hex */
+    color: white;
+    padding: 20px;
+    margin: 10px;
+}
+
+/* RGB: Uses red, green, blue values (0-255) */
+.rgb {
+    background-color: rgb(147, 112, 219); /* Medium purple in RGB */
+    color: white;
+    padding: 20px;
+    margin: 10px;
+}
+
+/* HSL: Uses hue (0-360), saturation (0-100%), lightness (0-100%) */
+.hsl {
+    background-color: hsl(120, 60%, 50%); /* Green in HSL */
+    color: white;
+    padding: 20px;
+    margin: 10px;
+}

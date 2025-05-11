@@ -1,0 +1,19 @@
+/* Main Learning Points: Gradients (linear-gradient, radial-gradient) */
+
+/* Linear Gradient: Transitions colors in a straight line */
+.linear-gradient {
+    background: linear-gradient(to right, red, yellow);
+    padding: 20px;
+    margin: 10px;
+    height: 100px;
+    color: white;
+}
+
+/* Radial Gradient: Transitions colors outward from a center point */
+.radial-gradient {
+    background: radial-gradient(circle, blue, lightblue);
+    padding: 20px;
+    margin: 10px;
+    height: 100px;
+    color: white;
+}
