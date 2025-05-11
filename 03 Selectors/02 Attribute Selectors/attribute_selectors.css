@@ -1,0 +1,23 @@
+/* Main Learning Points: Attribute Selectors */
+
+/* Selects all elements with a specific attribute */
+[href] {
+    color: blue;
+}
+
+/* Selects elements with an attribute value starting with a specific string */
+[href^="https"] {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Selects elements with a specific attribute value */
+[type="text"] {
+    border: 2px solid green;
+    padding: 5px;
+}
+
+/* Selects elements with an attribute value containing a specific string */
+[href*="internal"] {
+    color: red;
+}

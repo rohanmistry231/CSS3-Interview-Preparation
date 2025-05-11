@@ -1,0 +1,21 @@
+/* Main Learning Points: Pseudo-Elements (::before, ::after) */
+
+/* ::before: Adds content before the element */
+.before-example::before {
+    content: "★ ";
+    color: gold;
+    font-size: 20px;
+}
+
+/* ::after: Adds content after the element */
+.after-example::after {
+    content: " ✔";
+    color: green;
+    font-size: 20px;
+}
+
+/* Basic styling for the paragraphs */
+p {
+    padding: 10px;
+    background-color: #f0f0f0;
+}

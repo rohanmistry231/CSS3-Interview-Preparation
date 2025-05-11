@@ -1,0 +1,22 @@
+/* Main Learning Points: Pseudo-Classes (:hover, :focus, :nth-child) */
+
+/* :hover: Applies styles when the user hovers over an element */
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+/* :focus: Applies styles when an element is focused (e.g., by clicking or tabbing) */
+input:focus {
+    border: 2px solid blue;
+    outline: none;
+}
+
+/* :nth-child: Targets elements based on their position in a parent */
+li:nth-child(odd) {
+    background-color: lightgray;
+}
+
+li:nth-child(even) {
+    background-color: lightblue;
+}

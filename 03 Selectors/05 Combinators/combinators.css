@@ -1,0 +1,24 @@
+/* Main Learning Points: Combinators (descendant, child, sibling) */
+
+/* Descendant Combinator: Targets elements nested inside another (space) */
+.container p {
+    color: blue;
+    background-color: lightblue;
+}
+
+/* Child Combinator: Targets direct children only (>) */
+span > p {
+    border: 2px solid green;
+    padding: 5px;
+}
+
+/* Adjacent Sibling Combinator: Targets the immediate next sibling (+) */
+p + p {
+    color: red;
+    font-style: italic;
+}
+
+/* General Sibling Combinator: Targets all following siblings (~) */
+p ~ p {
+    background-color: lightyellow;
+}

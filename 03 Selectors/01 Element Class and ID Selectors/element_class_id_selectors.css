@@ -1,0 +1,20 @@
+/* Main Learning Points: Element, Class, and ID Selectors */
+
+/* Element Selector: Targets all elements of a specific type */
+p {
+    color: blue;
+    font-size: 16px;
+}
+
+/* Class Selector: Targets elements with a specific class */
+.highlight {
+    background-color: yellow;
+    padding: 5px;
+}
+
+/* ID Selector: Targets a single element with a specific ID */
+#special {
+    font-style: italic;
+    color: green;
+    border: 1px solid black;
+}
