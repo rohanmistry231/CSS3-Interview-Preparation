@@ -1,0 +1,21 @@
+/* Main Learning Points: CSS Grid (display: grid, grid-template, gap) */
+
+/* Display: grid - Creates a grid container */
+.grid-container {
+    display: grid;
+    /* Grid-Template: Defines the structure of rows and columns */
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    grid-template-rows: auto auto; /* Two rows with auto height */
+    /* Gap: Adds spacing between grid items */
+    gap: 20px;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+/* Styling for grid items */
+.grid-item {
+    background-color: lightgreen;
+    padding: 20px;
+    border: 1px solid black;
+    text-align: center;
+}

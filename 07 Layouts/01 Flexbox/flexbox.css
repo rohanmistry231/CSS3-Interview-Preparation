@@ -1,0 +1,23 @@
+/* Main Learning Points: Flexbox (display: flex, flex-direction, justify-content, align-items) */
+
+/* Display: flex - Creates a flex container */
+.flex-container {
+    display: flex;
+    /* Flex-Direction: Defines the main axis (row, column, etc.) */
+    flex-direction: row;
+    /* Justify-Content: Aligns items along the main axis */
+    justify-content: space-between;
+    /* Align-Items: Aligns items along the cross axis */
+    align-items: center;
+    background-color: lightgray;
+    padding: 10px;
+    height: 200px;
+}
+
+/* Styling for flex items */
+.flex-item {
+    background-color: lightblue;
+    padding: 20px;
+    border: 1px solid black;
+    text-align: center;
+}

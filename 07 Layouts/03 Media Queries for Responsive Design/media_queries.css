@@ -1,0 +1,28 @@
+/* Main Learning Points: Media Queries for Responsive Design */
+
+/* Default styles */
+.responsive-box {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Media Query: Adjust styles for screens smaller than 600px */
+@media (max-width: 600px) {
+    .responsive-box {
+        background-color: lightcoral;
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+/* Media Query: Adjust styles for screens larger than 1200px */
+@media (min-width: 1200px) {
+    .responsive-box {
+        background-color: lightgreen;
+        font-size: 20px;
+        padding: 30px;
+    }
+}

@@ -1,0 +1,38 @@
+/* Main Learning Points: Viewport Units (vw, vh, vmin, vmax) */
+
+/* vw: 1vw = 1% of viewport width */
+.vw-box {
+    width: 50vw;
+    background-color: lightblue;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+/* vh: 1vh = 1% of viewport height */
+.vh-box {
+    height: 30vh;
+    background-color: lightgreen;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+/* vmin: 1vmin = 1% of the smaller viewport dimension (width or height) */
+.vmin-box {
+    width: 20vmin;
+    height: 20vmin;
+    background-color: lightcoral;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+/* vmax: 1vmax = 1% of the larger viewport dimension (width or height) */
+.vmax-box {
+    font-size: 5vmax;
+    background-color: lightgoldenrodyellow;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
