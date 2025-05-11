@@ -1,0 +1,24 @@
+/* Main Learning Points: Using CSS Sprites */
+
+/* Base styles for icons using a sprite image */
+.icon {
+    width: 50px;
+    height: 50px;
+    background-image: url('https://via.placeholder.com/150x50'); /* Placeholder sprite image */
+    background-repeat: no-repeat;
+    margin: 10px;
+    display: inline-block;
+}
+
+/* Adjust background-position to show different parts of the sprite */
+.icon-1 {
+    background-position: 0 0; /* First icon */
+}
+
+.icon-2 {
+    background-position: -50px 0; /* Second icon (shift 50px left) */
+}
+
+.icon-3 {
+    background-position: -100px 0; /* Third icon (shift 100px left) */
+}

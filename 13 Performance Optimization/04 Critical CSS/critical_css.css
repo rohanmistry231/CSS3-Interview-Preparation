@@ -1,0 +1,9 @@
+/* Main Learning Points: Critical CSS for Above-the-Fold Content */
+
+/* Styles for below-the-fold content */
+.content {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}

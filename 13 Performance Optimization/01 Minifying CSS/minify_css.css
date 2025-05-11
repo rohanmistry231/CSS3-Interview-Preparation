@@ -1,0 +1,11 @@
+/* Main Learning Points: Minifying CSS (Regular Version) */
+
+/* This is the unminified CSS with comments and formatting */
+.box {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border: 1px solid #333;
+    border-radius: 5px;
+}

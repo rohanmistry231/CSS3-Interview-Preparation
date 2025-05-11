@@ -1,0 +1,18 @@
+/* Main Learning Points: Reducing Reflows and Repaints */
+
+/* Use transform and opacity for animations to avoid reflows */
+.animated-box {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Only animating transform and opacity */
+}
+
+/* On hover, animate using transform instead of width/height */
+.animated-box:hover {
+    transform: scale(1.2); /* Scales the element without causing reflow */
+    opacity: 0.8; /* Changes opacity without causing reflow */
+}
