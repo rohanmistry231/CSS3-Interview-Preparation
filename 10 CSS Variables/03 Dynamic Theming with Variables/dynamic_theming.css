@@ -1,0 +1,31 @@
+/* Main Learning Points: Dynamic Theming with Variables */
+
+/* Declaring CSS variables with default values (light theme) */
+:root {
+    --primary-color: #f0f0f0;
+    --text-color: #333;
+}
+
+/* Using CSS variables for theming */
+.themed-box {
+    background-color: var(--primary-color);
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.themed-text {
+    color: var(--text-color);
+    font-size: 18px;
+    margin: 20px;
+}
+
+/* Styling the button */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+}

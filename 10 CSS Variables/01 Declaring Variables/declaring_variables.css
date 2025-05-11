@@ -1,0 +1,17 @@
+/* Main Learning Points: Declaring Variables (--variable-name) */
+
+/* Declaring CSS variables in the :root pseudo-class (global scope) */
+:root {
+    --primary-color: lightblue;
+    --padding-size: 20px;
+}
+
+/* Applying the declared variable to a style */
+.box {
+    background-color: var(--primary-color); /* Using the variable (will be shown in the next example) */
+    padding: var(--padding-size);
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    text-align: center;
+}

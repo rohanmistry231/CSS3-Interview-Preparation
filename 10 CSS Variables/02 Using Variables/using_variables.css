@@ -1,0 +1,24 @@
+/* Main Learning Points: Using Variables (var(--variable-name)) */
+
+/* Declaring CSS variables */
+:root {
+    --bg-color: lightgreen;
+    --text-color: darkblue;
+    --box-padding: 15px;
+}
+
+/* Using CSS variables with var() */
+.box {
+    background-color: var(--bg-color);
+    padding: var(--box-padding);
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    text-align: center;
+}
+
+.text {
+    color: var(--text-color);
+    font-size: 18px;
+    margin: 20px;
+}
