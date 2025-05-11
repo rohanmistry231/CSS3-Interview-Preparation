@@ -1,0 +1,26 @@
+/* Main Learning Points: Vendor Prefixes (-webkit-, -moz-) */
+
+/* Box with a gradient background and transition */
+.box {
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+
+    /* Gradient with vendor prefixes for older browsers */
+    background: -webkit-linear-gradient(left, lightblue, lightgreen); /* Older Webkit browsers */
+    background: -moz-linear-gradient(left, lightblue, lightgreen); /* Older Firefox */
+    background: linear-gradient(to right, lightblue, lightgreen); /* Standard syntax */
+
+    /* Transition with vendor prefixes */
+    -webkit-transition: transform 0.3s ease; /* Older Webkit browsers */
+    -moz-transition: transform 0.3s ease; /* Older Firefox */
+    transition: transform 0.3s ease; /* Standard syntax */
+}
+
+.box:hover {
+    -webkit-transform: scale(1.1); /* Older Webkit browsers */
+    -moz-transform: scale(1.1); /* Older Firefox */
+    transform: scale(1.1); /* Standard syntax */
+}

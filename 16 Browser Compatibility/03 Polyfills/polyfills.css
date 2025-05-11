@@ -1,0 +1,18 @@
+/* Main Learning Points: Polyfills for Older Browsers */
+
+/* Styles for the image using object-fit */
+.responsive-img {
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+
+    /* Modern property: object-fit (with polyfill support for older browsers) */
+    object-fit: cover;
+
+    /* Fallback for browsers that don’t support object-fit (and no polyfill) */
+    /* Using a background image or alternative styling would be a common fallback */
+    /* Here, we ensure the image is still usable */
+    display: block;
+    max-width: 100%;
+    height: auto;
+}

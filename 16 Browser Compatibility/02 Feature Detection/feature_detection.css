@@ -1,0 +1,21 @@
+/* Main Learning Points: Feature Detection with @supports */
+
+/* Default styles (fallback for browsers that don’t support grid) */
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Use @supports to apply styles if CSS Grid is supported */
+@supports (display: grid) {
+    .box {
+        display: grid;
+        place-items: center;
+        background-color: lightgreen; /* Different color to show grid is applied */
+        width: 300px; /* Slightly larger to indicate support */
+    }
+}

@@ -1,0 +1,25 @@
+/* Main Learning Points: Debugging with Browser DevTools */
+
+/* Box with intentional issues for debugging */
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: lightcoral;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+
+    /* Intentional Issue 1: Negative margin causing overlap with the heading */
+    margin-top: -40px;
+
+    /* Intentional Issue 2: Line-height too small, causing text to overlap */
+    line-height: 0.5;
+}
+
+/* Instructions for Debugging:
+   1. Open Browser DevTools (F12 or Right-Click > Inspect).
+   2. Select the .box element in the Elements tab.
+   3. Check the computed styles for margin-top and line-height.
+   4. Adjust margin-top to a positive value (e.g., 20px) to fix the overlap with the heading.
+   5. Increase line-height (e.g., to 1.5) to make the text readable.
+*/
