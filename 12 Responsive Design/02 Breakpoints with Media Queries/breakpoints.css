@@ -1,0 +1,43 @@
+/* Main Learning Points: Breakpoints with Media Queries */
+
+/* Base styles (mobile) */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 10px;
+}
+
+.item {
+    background-color: lightgreen;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Breakpoint for tablets (min-width: 600px) */
+@media (min-width: 600px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Breakpoint for desktops (min-width: 1024px) */
+@media (min-width: 1024px) {
+    .grid {
+        grid-template-columns: repeat(4, 1fr);
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .item {
+        padding: 30px;
+    }
+}
+
+/* Breakpoint for smaller screens (max-width: 400px) */
+@media (max-width: 400px) {
+    .item {
+        padding: 10px;
+        font-size: 14px;
+    }
+}

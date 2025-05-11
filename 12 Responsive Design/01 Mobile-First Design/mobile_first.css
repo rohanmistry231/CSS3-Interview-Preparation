@@ -1,0 +1,45 @@
+/* Main Learning Points: Mobile-First Design */
+
+/* Base styles (for mobile screens) */
+body {
+    font-size: 16px;
+    margin: 0;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.box {
+    background-color: lightblue;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Media Query for larger screens (min-width for mobile-first approach) */
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .box {
+        flex: 1;
+        margin: 0 5px;
+    }
+}
+
+/* Additional adjustments for even larger screens */
+@media (min-width: 1200px) {
+    body {
+        font-size: 18px;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}

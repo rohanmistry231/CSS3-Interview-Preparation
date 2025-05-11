@@ -1,0 +1,33 @@
+/* Main Learning Points: Responsive Typography (rem, vw) */
+
+/* Set a base font size for rem units */
+html {
+    font-size: 16px;
+}
+
+/* rem: Scales relative to the root font size */
+.rem-text {
+    font-size: 1.5rem; /* 1.5 * root font size (16px) = 24px by default */
+    margin: 20px;
+    color: darkblue;
+}
+
+/* vw: Scales relative to 1% of the viewport width */
+.vw-text {
+    font-size: 5vw; /* 5% of viewport width */
+    margin: 20px;
+    color: darkgreen;
+}
+
+/* Adjust root font size for different screen sizes */
+@media (max-width: 600px) {
+    html {
+        font-size: 14px; /* Adjust base font size for smaller screens */
+    }
+}
+
+@media (min-width: 1200px) {
+    html {
+        font-size: 18px; /* Adjust base font size for larger screens */
+    }
+}
