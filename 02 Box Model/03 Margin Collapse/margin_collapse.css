@@ -1,0 +1,19 @@
+/* Main Learning Points: Margin Collapse */
+/* Vertical margins of adjacent block elements collapse into a single margin (the larger one) */
+
+.box1 {
+    background-color: lightblue;
+    margin-bottom: 40px; /* Larger margin */
+    padding: 10px;
+}
+
+.box2 {
+    background-color: lightgreen;
+    margin-top: 20px; /* Smaller margin */
+    padding: 10px;
+}
+
+/* The space between box1 and box2 will be 40px (the larger margin), not 60px */
+body {
+    background-color: #f0f0f0;
+}

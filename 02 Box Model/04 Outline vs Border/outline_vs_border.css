@@ -1,0 +1,25 @@
+/* Main Learning Points: Outline vs Border */
+/* Border: Part of the box model, affects layout */
+/* Outline: Drawn outside the border, does not affect layout */
+
+.border-box {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    border: 5px solid black; /* Affects layout, included in box dimensions */
+    margin: 20px;
+    padding: 10px;
+}
+
+.outline-box {
+    width: 200px;
+    height: 100px;
+    background-color: lightgreen;
+    outline: 5px solid red; /* Does not affect layout, drawn outside */
+    margin: 20px;
+    padding: 10px;
+}
+
+body {
+    background-color: #f0f0f0;
+}

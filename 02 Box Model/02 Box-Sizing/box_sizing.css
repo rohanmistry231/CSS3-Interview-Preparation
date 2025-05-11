@@ -1,0 +1,28 @@
+/* Main Learning Points: Box-Sizing (content-box vs. border-box) */
+/* box-sizing determines how width and height are calculated */
+
+/* content-box: Width/height only includes the content (default) */
+.content-box {
+    box-sizing: content-box;
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 5px solid black;
+    background-color: lightblue;
+    margin-bottom: 20px;
+}
+
+/* border-box: Width/height includes content, padding, and border */
+.border-box {
+    box-sizing: border-box;
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 5px solid black;
+    background-color: lightgreen;
+}
+
+/* Adding a subtle background to the body */
+body {
+    background-color: #f0f0f0;
+}
