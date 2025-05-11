@@ -1,0 +1,32 @@
+/* Main Learning Points: Customizing Frameworks with CSS */
+
+/* Customize Bootstrap heading */
+.custom-heading {
+    color: #0066cc; /* Change heading color */
+    font-weight: 700; /* Make it bolder */
+}
+
+/* Customize Bootstrap card */
+.custom-card {
+    background-color: #f0f8ff; /* Light blue background */
+    border: 2px solid #0066cc; /* Custom border */
+    border-radius: 10px; /* Rounded corners */
+    transition: transform 0.3s ease; /* Add animation */
+}
+
+.custom-card:hover {
+    transform: translateY(-5px); /* Lift on hover */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+/* Customize Bootstrap button */
+.custom-btn {
+    background-color: #ff6347; /* Tomato color */
+    border-color: #ff6347;
+    padding: 12px 24px; /* Larger padding */
+}
+
+.custom-btn:hover {
+    background-color: #e5533d; /* Darker shade on hover */
+    border-color: #e5533d;
+}

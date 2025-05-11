@@ -1,0 +1,10 @@
+/* Main Learning Points: Bootstrap (grid system, components) */
+
+/* Minimal custom styles for the Bootstrap example */
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
