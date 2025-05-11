@@ -1,0 +1,20 @@
+/* Main Learning Points: Box Shadow and Text Shadow */
+
+/* Box Shadow: Adds a shadow effect around an element */
+.box-shadow {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Offset-x, offset-y, blur, color */
+}
+
+/* Text Shadow: Adds a shadow effect to text */
+.text-shadow {
+    font-size: 24px;
+    color: darkblue;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Offset-x, offset-y, blur, color */
+    margin: 20px;
+}

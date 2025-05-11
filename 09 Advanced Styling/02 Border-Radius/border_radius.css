@@ -1,0 +1,23 @@
+/* Main Learning Points: Border-Radius for Rounded Corners */
+
+/* Rounded Corners: Applies border-radius to create rounded edges */
+.rounded-box {
+    width: 200px;
+    height: 100px;
+    background-color: lightgreen;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px; /* Uniform radius for all corners */
+}
+
+/* Circle: Uses border-radius to create a circular shape */
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50%; /* 50% radius creates a circle for square elements */
+}

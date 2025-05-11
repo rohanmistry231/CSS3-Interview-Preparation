@@ -1,0 +1,28 @@
+/* Main Learning Points: CSS Filters (blur, brightness, contrast) */
+
+/* Base styles for all divs */
+div {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Blur: Applies a blur effect */
+.blur {
+    filter: blur(5px);
+}
+
+/* Brightness: Adjusts the brightness (1 = normal, >1 brighter, <1 darker) */
+.brightness {
+    filter: brightness(1.5); /* 150% brightness */
+    background-color: lightgreen;
+}
+
+/* Contrast: Adjusts the contrast (1 = normal, >1 more contrast, <1 less contrast) */
+.contrast {
+    filter: contrast(2); /* 200% contrast */
+    background-color: lightcoral;
+}

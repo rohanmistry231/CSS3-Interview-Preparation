@@ -1,0 +1,23 @@
+/* Main Learning Points: Clip-Path for Custom Shapes */
+
+/* Triangle: Uses clip-path to create a triangular shape */
+.triangle {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%); /* Creates a triangle */
+}
+
+/* Circle: Uses clip-path to create a circular shape */
+.circle {
+    width: 200px;
+    height: 200px;
+    background-color: lightcoral;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    clip-path: circle(50% at 50% 50%); /* Creates a circle */
+}
