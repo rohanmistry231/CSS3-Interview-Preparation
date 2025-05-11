@@ -1,0 +1,33 @@
+/* Main Learning Points: Introduction to SASS (variables, nesting, mixins) */
+
+// Variables: Define reusable values
+$primary-color: lightblue;
+$padding-size: 20px;
+
+// Mixin: Define reusable styles
+@mixin button-style {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: $primary-color;
+    &:hover {
+        background-color: darken($primary-color, 10%);
+    }
+}
+
+// Nesting: Organize styles hierarchically
+.container {
+    background-color: #f0f0f0;
+    padding: $padding-size;
+
+    .box {
+        background-color: $primary-color;
+        padding: $padding-size;
+        text-align: center;
+    }
+
+    .btn {
+        @include button-style;
+    }
+}

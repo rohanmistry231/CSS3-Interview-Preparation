@@ -1,0 +1,30 @@
+/* Main Learning Points: SCSS Syntax */
+
+// SCSS uses a CSS-like syntax with curly braces and semicolons
+// Variables in SCSS
+$card-bg: lightgreen;
+$border-color: #333;
+$spacing: 15px;
+
+// Nesting in SCSS
+.wrapper {
+    padding: $spacing;
+    background-color: #f9f9f9;
+
+    .card {
+        background-color: $card-bg;
+        border: 1px solid $border-color;
+        padding: $spacing;
+        border-radius: 5px;
+
+        h2 {
+            margin: 0 0 $spacing 0;
+            color: $border-color;
+        }
+
+        p {
+            margin: 0;
+            font-size: 14px;
+        }
+    }
+}

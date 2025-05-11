@@ -1,0 +1,21 @@
+/* Main Learning Points: Compiling SASS to CSS */
+/* This is the compiled output of scss_syntax.scss */
+
+.wrapper {
+    padding: 15px;
+    background-color: #f9f9f9;
+}
+.wrapper .card {
+    background-color: lightgreen;
+    border: 1px solid #333;
+    padding: 15px;
+    border-radius: 5px;
+}
+.wrapper .card h2 {
+    margin: 0 0 15px 0;
+    color: #333;
+}
+.wrapper .card p {
+    margin: 0;
+    font-size: 14px;
+}
