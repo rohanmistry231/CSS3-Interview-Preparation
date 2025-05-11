@@ -1,0 +1,19 @@
+/* Main Learning Points: Web Fonts (@font-face, Google Fonts) */
+
+/* Google Fonts: Applied via <link> in the HTML */
+.google-font {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+}
+
+/* @font-face: Normally used to define a custom font from a file */
+/* Example (commented out since we can't host font files):
+@font-face {
+    font-family: 'CustomFont';
+    src: url('customfont.woff2') format('woff2');
+}
+.custom-font {
+    font-family: 'CustomFont', sans-serif;
+}
+*/

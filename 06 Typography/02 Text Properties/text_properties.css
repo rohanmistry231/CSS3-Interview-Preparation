@@ -1,0 +1,27 @@
+/* Main Learning Points: Text Properties (align, decoration, transform, spacing) */
+
+/* Text Align: Controls text alignment */
+.align {
+    text-align: center;
+    padding: 10px;
+}
+
+/* Text Decoration: Adds effects like underline */
+.decoration {
+    text-decoration: underline;
+    color: blue;
+    padding: 10px;
+}
+
+/* Text Transform: Changes text case */
+.transform {
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+/* Spacing: Adjusts letter and word spacing */
+.spacing {
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    padding: 10px;
+}

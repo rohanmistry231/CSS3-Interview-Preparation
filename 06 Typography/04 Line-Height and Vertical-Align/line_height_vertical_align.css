@@ -1,0 +1,24 @@
+/* Main Learning Points: Line-Height and Vertical-Align */
+
+/* Line-Height: Controls the height of a line of text */
+.line-height {
+    line-height: 2; /* Double the default line height */
+    background-color: lightblue;
+    padding: 10px;
+}
+
+/* Vertical-Align: Aligns inline or inline-block elements vertically */
+.vertical-align-container {
+    padding: 10px;
+    background-color: lightgreen;
+    line-height: 50px; /* For context */
+}
+
+.vertical-align {
+    vertical-align: middle; /* Aligns the text with the middle of the image */
+    font-size: 20px;
+}
+
+img {
+    vertical-align: middle; /* Aligns the image with the text */
+}

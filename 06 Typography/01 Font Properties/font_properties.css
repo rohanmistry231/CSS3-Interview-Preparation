@@ -1,0 +1,21 @@
+/* Main Learning Points: Font Properties (family, size, weight, style) */
+
+/* Font Family: Defines the typeface */
+.custom-font {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+}
+
+/* Font Size: Defines the text size */
+/* Font Weight: Defines the boldness */
+.large-bold {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* Font Style: Defines italic or normal */
+.italic {
+    font-style: italic;
+    padding: 10px;
+}
