@@ -1,0 +1,50 @@
+/* Main Learning Points: Position (static, relative, absolute, fixed, sticky) */
+
+/* Static: Default positioning, follows normal document flow */
+.static {
+    position: static;
+    background-color: lightblue;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Relative: Positioned relative to its normal position */
+.relative {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: lightgreen;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Absolute: Positioned relative to the nearest positioned ancestor */
+.absolute {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: lightcoral;
+    padding: 5px;
+}
+
+/* Fixed: Positioned relative to the viewport, stays in place on scroll */
+.fixed {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: lightgoldenrodyellow;
+    padding: 10px;
+}
+
+/* Sticky: Sticks to the top of its container while scrolling */
+.sticky-container {
+    height: 500px;
+    overflow: auto;
+}
+.sticky {
+    position: sticky;
+    top: 0;
+    background-color: lightpink;
+    padding: 10px;
+    border: 1px solid black;
+}

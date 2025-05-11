@@ -1,0 +1,34 @@
+/* Main Learning Points: Z-Index for Layering */
+
+/* Layer 1: Lowest z-index, appears at the bottom */
+.layer1 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    z-index: 1;
+}
+
+/* Layer 2: Middle z-index, appears in the middle */
+.layer2 {
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    width: 200px;
+    height: 100px;
+    background-color: lightgreen;
+    z-index: 2;
+}
+
+/* Layer 3: Highest z-index, appears on top */
+.layer3 {
+    position: absolute;
+    top: 110px;
+    left: 110px;
+    width: 200px;
+    height: 100px;
+    background-color: lightcoral;
+    z-index: 3;
+}

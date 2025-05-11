@@ -1,0 +1,27 @@
+/* Main Learning Points: Float and Clear */
+
+/* Float Left: Moves the element to the left, allowing content to wrap around */
+.float-left {
+    float: left;
+    background-color: lightblue;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+}
+
+/* Float Right: Moves the element to the right, allowing content to wrap around */
+.float-right {
+    float: right;
+    background-color: lightgreen;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+}
+
+/* Clear: Prevents floating elements from affecting this element */
+.clear {
+    clear: both;
+    background-color: lightcoral;
+    padding: 10px;
+    margin: 10px;
+}

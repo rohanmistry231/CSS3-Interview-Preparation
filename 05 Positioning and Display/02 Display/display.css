@@ -1,0 +1,32 @@
+/* Main Learning Points: Display (block, inline, inline-block, none) */
+
+/* Block: Takes full width, starts on a new line */
+.block {
+    display: block;
+    background-color: lightblue;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Inline: Stays on the same line, width/height not applicable */
+.inline {
+    display: inline;
+    background-color: lightgreen;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* Inline-Block: Stays on the same line, but allows width/height */
+.inline-block {
+    display: inline-block;
+    background-color: lightcoral;
+    padding: 10px;
+    margin: 5px;
+    width: 100px;
+    height: 50px;
+}
+
+/* None: Removes the element from the layout */
+.none {
+    display: none;
+}
