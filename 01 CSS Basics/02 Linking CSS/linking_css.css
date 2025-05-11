@@ -1,0 +1,7 @@
+/* Main Learning Points: External CSS Linking */
+/* This file is linked to the HTML using the <link> tag */
+
+.external-example {
+    background-color: lightblue;
+    padding: 10px;
+}

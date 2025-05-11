@@ -1,0 +1,41 @@
+/* Main Learning Points: CSS Units */
+
+/* Set root font-size for rem calculations */
+html {
+    font-size: 16px;
+}
+
+/* px: Fixed pixel size */
+h1 {
+    font-size: 24px;
+}
+
+/* %: Relative to parent element */
+.percent {
+    width: 50%;
+    background-color: lightblue;
+}
+
+/* vw: Viewport width (5vw = 5% of viewport width) */
+.vw {
+    font-size: 5vw;
+}
+
+/* vh: Viewport height (20vh = 20% of viewport height) */
+.vh {
+    height: 20vh;
+    background-color: lightgreen;
+}
+
+/* rem: Relative to root font-size (2rem = 2x 16px = 32px) */
+.rem {
+    font-size: 2rem;
+}
+
+/* em: Relative to parent font-size */
+.em-parent {
+    font-size: 20px;
+}
+.em {
+    font-size: 1.5em; /* 1.5x parent font-size (1.5x 20px = 30px) */
+}

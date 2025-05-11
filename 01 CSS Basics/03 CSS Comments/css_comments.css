@@ -1,0 +1,14 @@
+/* Main Learning Points: CSS Comments */
+/* Comments are written between /* and */ and are ignored by the browser */
+
+/* Styling the h1 element */
+h1 {
+    color: purple; /* This sets the text color to purple */
+    font-size: 28px; /* This sets the font size */
+}
+
+/* Styling the paragraph with a class */
+.styled-paragraph {
+    background-color: lightgray; /* Background color for the paragraph */
+    padding: 10px; /* Adds padding inside the paragraph */
+}

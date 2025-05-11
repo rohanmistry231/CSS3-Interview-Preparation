@@ -1,0 +1,19 @@
+/* Main Learning Points: CSS Syntax and Structure */
+/* CSS syntax: selector { property: value; } */
+
+/* Element selector: Targets HTML elements directly */
+h1 {
+    color: blue; /* Property: color, Value: blue */
+    font-size: 24px; /* Property: font-size, Value: 24px */
+}
+
+/* Class selector: Targets elements with a specific class */
+.highlight {
+    background-color: yellow;
+}
+
+/* ID selector: Targets an element with a specific ID */
+#special {
+    font-style: italic;
+    color: green;
+}
