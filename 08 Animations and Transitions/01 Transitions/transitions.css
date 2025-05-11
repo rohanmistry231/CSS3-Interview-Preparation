@@ -1,0 +1,22 @@
+/* Main Learning Points: Transitions (property, duration, timing-function, delay) */
+
+/* Default styles for the box */
+.transition-box {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    /* Transition: Defines the properties to animate */
+    transition-property: background-color, width;
+    transition-duration: 1s; /* Duration: How long the transition takes */
+    transition-timing-function: ease-in-out; /* Timing Function: Controls the speed curve */
+    transition-delay: 0.2s; /* Delay: Waits before starting the transition */
+}
+
+/* Styles to apply on hover */
+.transition-box:hover {
+    background-color: lightcoral;
+    width: 200px;
+}

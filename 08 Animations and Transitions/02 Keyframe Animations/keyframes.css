@@ -1,0 +1,22 @@
+/* Main Learning Points: Keyframe Animations (@keyframes, animation properties) */
+
+/* Define the keyframes for the animation */
+@keyframes colorChange {
+    0% { background-color: lightblue; }
+    50% { background-color: lightgreen; }
+    100% { background-color: lightcoral; }
+}
+
+/* Apply the animation to the box */
+.animation-box {
+    width: 150px;
+    height: 100px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    /* Animation Properties */
+    animation-name: colorChange; /* Name of the keyframes */
+    animation-duration: 3s; /* Duration of one cycle */
+    animation-iteration-count: infinite; /* Repeats forever */
+    animation-timing-function: ease-in-out; /* Speed curve */
+}

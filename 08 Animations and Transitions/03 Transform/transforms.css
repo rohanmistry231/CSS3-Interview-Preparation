@@ -1,0 +1,42 @@
+/* Main Learning Points: Transform (translate, rotate, scale, skew) and 2D/3D Transforms */
+
+/* Base styles for all boxes */
+div {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.5s ease-in-out; /* Smooth transition for transforms */
+}
+
+/* Translate: Moves the element */
+.translate:hover {
+    transform: translate(50px, 20px); /* Moves 50px right, 20px down */
+}
+
+/* Rotate: Rotates the element */
+.rotate:hover {
+    transform: rotate(45deg); /* Rotates 45 degrees clockwise */
+}
+
+/* Scale: Changes the size */
+.scale:hover {
+    transform: scale(1.5); /* Scales to 1.5x size */
+}
+
+/* Skew: Distorts the element */
+.skew:hover {
+    transform: skew(20deg, 10deg); /* Skews 20deg on X-axis, 10deg on Y-axis */
+}
+
+/* 3D Transform: Rotates in 3D space */
+.transform-3d {
+    background-color: lightcoral;
+    perspective: 500px; /* Adds 3D perspective */
+}
+
+.transform-3d:hover {
+    transform: rotateX(45deg) rotateY(45deg); /* 3D rotation on X and Y axes */
+}
