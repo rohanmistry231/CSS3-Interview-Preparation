@@ -1,0 +1,23 @@
+/* Main Learning Points: Avoiding Pure CSS Hacks for Accessibility */
+
+/* Style the button without hiding it in an inaccessible way */
+.btn {
+    background-color: lightblue;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Instead of using display: none (which hides content from screen readers), use visibility or positioning */
+.content {
+    font-size: 16px;
+    margin: 10px;
+    /* Example: If you need to hide visually but keep accessible, use this approach */
+    /* visibility: hidden; would still allow screen readers to access it */
+}
+
+/* Ensure focusable elements remain accessible */
+.btn:focus {
+    outline: 2px solid #0066cc;
+}

@@ -1,0 +1,14 @@
+/* Main Learning Points: Readable Font Sizes and Colors */
+
+/* Use a readable font size (at least 16px or 1rem) and high-contrast colors */
+.text {
+    font-size: 1rem; /* 16px assuming default root font size */
+    line-height: 1.5; /* Improves readability */
+    color: #1a1a1a; /* Dark color for high contrast */
+    background-color: #f5f5f5; /* Light background for contrast */
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Ensure sufficient contrast ratio (at least 4.5:1 for normal text) */
+/* Contrast between #1a1a1a (text) and #f5f5f5 (background) meets WCAG guidelines */

@@ -1,0 +1,29 @@
+/* Main Learning Points: High-Contrast Mode Support */
+
+/* Use transparent backgrounds and borders to adapt to high-contrast mode */
+.btn {
+    background-color: transparent;
+    border: 2px solid currentColor; /* Uses the text color in high-contrast mode */
+    padding: 10px 20px;
+    margin: 10px;
+    color: #333;
+}
+
+/* Ensure text remains visible by using sufficient contrast and system colors */
+.text {
+    color: #333;
+    font-size: 18px;
+    margin: 10px;
+}
+
+/* Use media query to detect high-contrast mode and adjust styles if needed */
+@media (forced-colors: active) {
+    .btn {
+        forced-color-adjust: none; /* Allow manual color adjustments */
+        border-color: ButtonBorder; /* System color for borders */
+        color: ButtonText; /* System color for text */
+    }
+    .text {
+        color: CanvasText; /* System color for text */
+    }
+}

@@ -1,0 +1,22 @@
+/* Main Learning Points: Focus Styles for Keyboard Navigation */
+
+/* Default styles for focusable elements */
+.link, .btn {
+    padding: 10px 20px;
+    margin: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    background-color: lightblue;
+    border: 2px solid transparent;
+}
+
+/* Custom focus styles using :focus-visible for better accessibility */
+.link:focus-visible, .btn:focus-visible {
+    outline: none; /* Remove default outline */
+    border: 2px solid #0066cc; /* Visible border for focus */
+    background-color: #e6f0ff; /* Subtle background change */
+    box-shadow: 0 0 5px rgba(0, 102, 204, 0.5); /* Add a glow effect */
+}
+
+/* Avoid using :focus alone to prevent styling non-keyboard interactions (e.g., mouse clicks) */
